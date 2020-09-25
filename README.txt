@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-HELLO HELLO WORLD!  
-=======
-HELLO WORLD! AGAIN!
->>>>>>> 3ab8f819b8c8f902e255441b2afe81c6fc67370c
+Repositório para elaboração do projeto de IPM 2020 pelo grupo 6
+Membros:
+Hugo Santiago, 53073
+João Paulo, 50483
+Nuno Santos, 52690
+Pedro Belinha, 47155

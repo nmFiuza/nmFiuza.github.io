@@ -6,6 +6,7 @@
 </head>
 
 <body>
+  <div class="body">
     <div class="title">
       <h1>IPM 2020 - P1</h1>
       <h3>Grupo 6 - Membros:</h3>
@@ -15,25 +16,49 @@
         <div class="container">
             <img src="./img/HA.png" alt="Avatar" class="image">
             <div class="middle">
-                <div class="text">Hugo Assunção</div>
+                <button type="button" id="hugoBtn" class="btn" onclick="displayModal('hugoModal')">Hugo Assunção</button>
+                <div id="hugoModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="removeModal('hugoModal')">&times;</span>
+                    <p>Hugo Info</p>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="container">
             <img src="./img/JP.png" alt="Avatar" class="image">
             <div class="middle">
-                <div class="text">João Paulo</div>
+              <button type="button" id="joaoBtn" class="btn" onclick="displayModal('joaoModal')">João Paulo</button>
+              <div id="joaoModal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="removeModal('joaoModal')">&times;</span>
+                  <p>João Info</p>
+                </div>
+              </div>
             </div>
         </div>
         <div class="container">
             <img src="./img/NS.png" alt="Avatar" class="image">
             <div class="middle">
-                <div class="text">Nuno Santos</div>
+                <button type="button" id="nunoBtn" class="btn" onclick="displayModal('nunoModal')">Nuno Santos</button>
+                <div id="nunoModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="removeModal('nunoModal')">&times;</span>
+                    <p>Nuno Info</p>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="container">
             <img src="./img/PB.png" alt="Avatar" class="image">
             <div class="middle">
-                <div class="text">Pedro Belinha</div>
+                <button type="button" id="pedroBtn" class="btn" onclick="displayModal('pedroModal')">Pedro Belinha</button>
+                <div id="pedroModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="removeModal('pedroModal')">&times;</span>
+                    <p>Pedro Info</p>
+                  </div>
+                </div>
             </div>
         </div>
       </div>
@@ -49,7 +74,9 @@
           quem já leu ou de quem estaria interessado em ler.</p>
       <br>
     </div>
+  </div>
 
+  <script type="text/javascript" src="content/code.js"></script>
 </body>
 
 </html>

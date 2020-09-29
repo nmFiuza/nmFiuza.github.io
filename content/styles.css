@@ -1,16 +1,33 @@
+.title {
+  display: grid;
+  place-items: center;
+}
+
 .container {
   position: relative;
   width: 10%;
   display: grid;
   place-items: center;
-  padding: 1% ;
+  padding: 15px ;
+  height: 200px;
+  width: 140px;
+}
+
+.box {
+  padding: 30px;
+}
+
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .image {
   opacity: 1;
   display: block;
-  height: 200px;
-  width: 140px;
+  height: 100%;
+  width: 100%;
   transition: .5s ease;
   object-fit: cover;
   backface-visibility: hidden;

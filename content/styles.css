@@ -1,31 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
+
 .body {
-  background-color: #c6f5c8;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background: linear-gradient(to top, #535353, #343434);
+  padding: 50px 10px 30px 10px;
+  display: grid;
+  place-items: center;
+}
+
+.header-box{
+    width: min(70%, 850px);
 }
 
 .title {
-  display: grid;
-  place-items: center;
-
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  margin-top: 20px;
 }
 
+.subtitle {
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.logo-fct{
+  float: right;
+  position: relative;
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.divider {
+  height: 30px;
+  background-color: #323131;
+}
+
+.minor-title{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+  background-image: url("../img/Background 2.jpg");
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.box {
+  width: min(70%, 850px);
+  padding: 20px 70px 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+}
 .container {
   position: relative;
   width: 10%;
   display: grid;
   place-items: center;
-  padding: 15px ;
   height: 200px;
   width: 140px;
-}
-
-.box {
-  padding: 30px;
 }
 
 .profiles{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .image {
@@ -36,6 +98,12 @@
   transition: .5s ease;
   object-fit: cover;
   backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.project {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .middle {
@@ -85,6 +153,14 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
 }
 
 /* The Close Button */

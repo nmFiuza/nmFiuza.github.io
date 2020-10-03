@@ -7,80 +7,87 @@
 
 <body>
   <div class="body">
-    <div class="title">
-      <h1>IPM 2020 - P1</h1>
-      <h3>Grupo 6 - Membros:</h3>
-    </div>
-    <div class="box">
-      <div class="profiles">
-        <div class="container">
-            <img src="./img/HA.png" alt="Avatar" class="image">
-            <div class="middle">
-                <button type="button" id="hugoBtn" class="btn" onclick="displayModal('hugoModal')">Hugo Assunção</button>
-                <div id="hugoModal" class="modal">
-                  <div class="modal-content">
-                    <span class="close" onclick="removeModal('hugoModal')">&times;</span>
-                    <p>Hugo Assunção</p>
-                    <p>53073</p>
-                    <p>h.assuncao@campus.fct.unl.pt</p>
+    <div class="header">
+      <div class="header-box">
+        <img src="./img/fct.jpg" class="logo-fct">
+        <h1 class="title">IPM 2020 - P1</h1>
+        <h3 class="subtitle">Grupo 6</h3>
+      </div>
+      </div>
+      <div class="divider"></div>
+    <div class="content">
+      <div class="box">
+        <h3 class="minor-title">Membros:</h3>
+        <div class="profiles">
+          <div class="container">
+              <img src="./img/HA.png" alt="Avatar" class="image">
+              <div class="middle">
+                  <button type="button" id="hugoBtn" class="btn" onclick="displayModal('hugoModal')">Hugo Assunção</button>
+                  <div id="hugoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="removeModal('hugoModal')">&times;</span>
+                      <p>Hugo Assunção</p>
+                      <p>53073</p>
+                      <p>h.assuncao@campus.fct.unl.pt</p>
+                    </div>
                   </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./img/JP.png" alt="Avatar" class="image">
-            <div class="middle">
-              <button type="button" id="joaoBtn" class="btn" onclick="displayModal('joaoModal')">João Paulo</button>
-              <div id="joaoModal" class="modal">
-                <div class="modal-content">
-                  <span class="close" onclick="removeModal('joaoModal')">&times;</span>
-                  <p>João Paulo</p>
-                  <p>Numero</p>
-                  <p>Email</p>
-                </div>
               </div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./img/NS.png" alt="Avatar" class="image">
-            <div class="middle">
-                <button type="button" id="nunoBtn" class="btn" onclick="displayModal('nunoModal')">Nuno Santos</button>
-                <div id="nunoModal" class="modal">
+          </div>
+          <div class="container">
+              <img src="./img/JP.png" alt="Avatar" class="image">
+              <div class="middle">
+                <button type="button" id="joaoBtn" class="btn" onclick="displayModal('joaoModal')">João Paulo</button>
+                <div id="joaoModal" class="modal">
                   <div class="modal-content">
-                    <span class="close" onclick="removeModal('nunoModal')">&times;</span>
-                    <p>Nuno Santos</p>
-                    <p>52690</p>
-                    <p>nmf.santos@campus.fct.unl.pt</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./img/PB.png" alt="Avatar" class="image">
-            <div class="middle">
-                <button type="button" id="pedroBtn" class="btn" onclick="displayModal('pedroModal')">Pedro Belinha</button>
-                <div id="pedroModal" class="modal">
-                  <div class="modal-content">
-                    <span class="close" onclick="removeModal('pedroModal')">&times;</span>
-                    <p>Pedro Belinha</p>
+                    <span class="close" onclick="removeModal('joaoModal')">&times;</span>
+                    <p>João Paulo</p>
                     <p>Numero</p>
                     <p>Email</p>
                   </div>
                 </div>
-            </div>
+              </div>
+          </div>
+          <div class="container">
+              <img src="./img/NS.png" alt="Avatar" class="image">
+              <div class="middle">
+                  <button type="button" id="nunoBtn" class="btn" onclick="displayModal('nunoModal')">Nuno Santos</button>
+                  <div id="nunoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="removeModal('nunoModal')">&times;</span>
+                      <p>Nuno Santos</p>
+                      <p>52690</p>
+                      <p>nmf.santos@campus.fct.unl.pt</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <img src="./img/PB.png" alt="Avatar" class="image">
+              <div class="middle">
+                  <button type="button" id="pedroBtn" class="btn" onclick="displayModal('pedroModal')">Pedro Belinha</button>
+                  <div id="pedroModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="removeModal('pedroModal')">&times;</span>
+                      <p>Pedro Belinha</p>
+                      <p>Numero</p>
+                      <p>Email</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="project">
+          <h3 class="minor-title">Tema do Projeto : EcoBook (WIP)</h3>
+          <p>O EcoBook é uma Aplicação Web desenhada para a partilha de livros. Um utilizador pode disponibilizar os seus
+              livros para troca, indicando também uma lista com aqueles que gostaria de receber.</p>
+          <p>É também possível serem feitas doações de livros para o banco de livros EcoBook assim como requisições do
+              mesmo.</p>
+          <p>Na altura de enviar os livros a EcoBook age como intermediário, recebendo os livros de ambos os clientes e
+              reenviando à outra pessoa.</p>
+          <p>Para além disso, a EcoBook disponibiliza também um fórum para a troca de ideias sobre os livros, por parte de
+              quem já leu ou de quem estaria interessado em ler.</p>
         </div>
       </div>
-      <br>
-      <h3>Tema do Projeto : EcoBook (WIP)</h3>
-      <p>O EcoBook é uma Aplicação Web desenhada para a partilha de livros. Um utilizador pode disponibilizar os seus
-          livros para troca, indicando também uma lista com aqueles que gostaria de receber.</p>
-      <p>É também possível serem feitas doações de livros para o banco de livros EcoBook assim como requisições do
-          mesmo.</p>
-      <p>Na altura de enviar os livros a EcoBook age como intermediário, recebendo os livros de ambos os clientes e
-          reenviando à outra pessoa.</p>
-      <p>Para além disso, a EcoBook disponibiliza também um fórum para a troca de ideias sobre os livros, por parte de
-          quem já leu ou de quem estaria interessado em ler.</p>
-      <br>
     </div>
   </div>
 

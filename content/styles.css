@@ -56,8 +56,16 @@ h1, h2, h3, h4, h5 {
 
 .minor-title{
   font-size: 25px;
+  margin: 0;
   margin-top: 20px;
+}
+
+.minor-subtitle{
+  font-size: 15px;
+  margin: 0;
   margin-bottom: 20px;
+  text-align: center;
+  opacity: 50%;
 }
 
 .content {
@@ -159,8 +167,8 @@ h1, h2, h3, h4, h5 {
 }
 
 @keyframes animatetop {
-  from {top: -300px; opacity: 0}
-  to {top: 0; opacity: 1}
+  from {opacity: 0}
+  to {opacity: 1}
 }
 
 /* The Close Button */

@@ -98,6 +98,36 @@ h1, h2, h3, h4, h5 {
     justify-content: space-between;
 }
 
+.center{
+  display: table;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 200px;
+  width: 140px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.assignement_image{
+  opacity: 1;
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  object-fit: cover;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
 .image {
   opacity: 1;
   display: block;
@@ -160,7 +190,9 @@ h1, h2, h3, h4, h5 {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  height: 50%;
+  overflow-y: auto;
+  width: 60%; /* Could be more or less, depending on screen size */
   border-radius: 10px;
   animation-name: animatetop;
   animation-duration: 0.4s

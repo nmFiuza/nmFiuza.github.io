@@ -2,113 +2,224 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="content/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
 </head>
 
 <body>
-  <div class="body">
-    <div class="header">
-      <div class="header-box">
-        <img src="./img/fct.jpg" class="logo-fct">
-        <h1 class="title">IPM 2020 - P1</h1>
-        <h3 class="subtitle">Grupo 6</h3>
-      </div>
-    </div>
-    <div class="divider"></div>
-    <div class="content">
-      <div class="box">
-        <h3 class="minor-title">Membros:</h3>
-        <h5 class="minor-subtitle">CLIQUE NAS IMAGENS PARA VER DETALHES</h5>
-        <div class="profiles">
-          <div class="container">
-            <img src="./img/HA.png" alt="Avatar" class="image">
-            <div class="middle">
-              <button type="button" id="hugoBtn" class="btn" onclick="displayModal('hugoModal')">Hugo Assunção</button>
-              <div id="hugoModal" class="modal">
-                <div class="modal-content">
-                  <span class="close" onclick="removeModal('hugoModal')">&times;</span>
-                  <p>Hugo Assunção</p>
-                  <p>53073</p>
-                  <p>h.assuncao@campus.fct.unl.pt</p>
-                  <div class="center">
-                    <div class="row">
-                      <p>Assignement 1</p>
-                      <div class=column>
-                        <p>Bom design</p>
-                          <img src="./img/assignement_hugo/bom_design.jpeg" alt="Avatar" class="assignement_image">
-                      </div>
-                      <div class=column>
-                        <p>Mau design</p>
-                          <img src="./img/assignement_hugo/mau_design.jpeg" alt="Avatar" class="assignement_image">
-                      </div>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="background-color: rgb(77,35,35);">
+        <div class="container"><img style="background-image: url(&quot;assets/img/unknown.png&quot;);"><a class="navbar-brand logo" href="#">EcoBook</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#home">Início</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#info">Informação</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#phases">Fases</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#ass1">Trabalhos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#members">Membros</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header style="height: 100%;width: 100%;">
+        <section id="home" class="clean-block clean-hero" style="background-image: url(&quot;assets/img/EcoBook.jpg&quot;);color: rgba(0,0,0,0);width: 100%;height: 100%;padding-top: 0px;">
+            <div class="text">
+                <h2 style="font-size: 80px;">EcoBook</h2>
+                <p style="font-size: 24px;">Troca Partilha Evolui</p>
+            </div>
+        </section>
+    </header>
+    <main class="page landing-page">
+        <section id="info" class="clean-block clean-info dark" style="width: 100%;height: 100%;">
+            <div class="container">
+                <div class="block-heading" style="padding-bottom: 50px;">
+                    <h2 class="text-info">Projeto</h2>
+                    <p style="max-width: 750px;text-align: justify;">O EcoBook é uma Aplicação Web desenhada para a partilha de livros.&nbsp;<br>Um utilizador pode disponibilizar os seus livros para troca, indicando também uma lista com aqueles que gostaria de receber.É também possível serem feitas
+                        doações de livros para o banco de livros EcoBook assim como requisições do mesmo. Na altura de enviar os livros a EcoBook age como intermediário, recebendo os livros de ambos os clientes e reenviando à outra pessoa. Para além disso,
+                        a EcoBook disponibiliza também um fórum para a troca de ideias sobre os livros, por parte de quem já leu ou de quem estaria interessado em ler.<br></p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/livros.jpg"></div>
+                    <div class="col-md-6">
+                        <div class="getting-started-info">
+                            <p><br>Na altura de enviar os livros a EcoBook age como intermediário, recebendo os livros de ambos os clientes e reenviando à outra pessoa. Para além disso, a EcoBook disponibiliza também um fórum para a troca de ideias sobre
+                                os livros, por parte de quem já leu ou de quem estaria interessado em ler.<br><br></p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="container">
-            <img src="./img/JP.png" alt="Avatar" class="image">
-            <div class="middle">
-              <button type="button" id="joaoBtn" class="btn" onclick="displayModal('joaoModal')">João Paulo</button>
-              <div id="joaoModal" class="modal">
-                <div class="modal-content">
-                  <span class="close" onclick="removeModal('joaoModal')">&times;</span>
-                  <p>João Paulo</p>
-                  <p>Numero</p>
-                  <p>Email</p>
+        </section>
+        <section id="phases" class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Features</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <img src="./img/NS.png" alt="Avatar" class="image">
-            <div class="middle">
-              <button type="button" id="nunoBtn" class="btn" onclick="displayModal('nunoModal')">Nuno Santos</button>
-              <div id="nunoModal" class="modal">
-                <div class="modal-content">
-                  <span class="close" onclick="removeModal('nunoModal')">&times;</span>
-                  <p>Nuno Santos</p>
-                  <p>52690</p>
-                  <p>nmf.santos@campus.fct.unl.pt</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
+                        <h4>Bootstrap 4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
+                        <h4>Customizable</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
+                        <h4>Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
+                        <h4>All Browser Compatibility</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="container">
-            <img src="./img/PB.png" alt="Avatar" class="image">
-            <div class="middle">
-              <button type="button" id="pedroBtn" class="btn" onclick="displayModal('pedroModal')">Pedro
-                Belinha</button>
-              <div id="pedroModal" class="modal">
-                <div class="modal-content">
-                  <span class="close" onclick="removeModal('pedroModal')">&times;</span>
-                  <p>Pedro Belinha</p>
-                  <p>Numero</p>
-                  <p>Email</p>
+        </section>
+        <section id="ass1" class="clean-block slider dark" style="width: 100%;">
+            <div class="container" style="place-items: center;display: grid;">
+                <div class="block-heading" style="padding-top: 80;margin-bottom: 40;">
+                    <h2 class="text-info" style="font-family: Montserrat, sans-serif;">Trabalho 1</h2>
+                    <p><br>Bons e maus designs<br><br></p>
                 </div>
-              </div>
+                <div class="row" style="width: 100%;">
+                    <div class="col"><img src="assets/img/bom_design_hugo.jpeg" style="width: 50%;"><img style="width: 50%;" src="assets/img/mau_design_hugo.jpeg">
+                        <div>
+                            <h2 class="text-info" style="text-align: center;font-family: Montserrat, sans-serif;">Hugo Assunçao</h2>
+                        </div>
+                    </div>
+                    <div class="col"><img src="assets/img/bom_design_hugo.jpeg" style="width: 50%;"><img style="width: 50%;" src="assets/img/mau_design_hugo.jpeg">
+                        <div>
+                            <h2 class="text-info" style="text-align: center;font-family: Montserrat, sans-serif;">Hugo Assunçao</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="width: 100%;">
+                    <div class="col"><img src="assets/img/bom_design_hugo.jpeg" style="width: 50%;"><img style="width: 50%;" src="assets/img/mau_design_hugo.jpeg">
+                        <div>
+                            <h2 class="text-info" style="text-align: center;font-family: Montserrat, sans-serif;">Hugo Assunçao</h2>
+                        </div>
+                    </div>
+                    <div class="col"><img src="assets/img/bom_design_hugo.jpeg" style="width: 50%;"><img style="width: 50%;" src="assets/img/mau_design_hugo.jpeg">
+                        <div>
+                            <h2 class="text-info" style="text-align: center;font-family: Montserrat, sans-serif;">Hugo Assunçao</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+        <section id="members" class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Membros</h2>
+                    <p>Estes são os membros constituintes do Grupo 6</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4" style="-ms-flex: 0 0 25%;flex: 0 0 25%;">
+                        <div class="card clean-card text-center">
+                            <div style="height: 340px;"><img src="assets/img/HA.png" style="opacity: 1;display: block;height: 100%;width: 100%;/*transition: .5s ease;*/object-fit: cover;backface-visibility: hidden;/*border-radius: 20px;*/"></div>
+                            <div class="card-body info">
+                                <h4 class="card-title">Hugo Assunção</h4>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">53073</p>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">h.assuncao@campus.fct.unl.pt</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" style="-ms-flex: 0 0 25%;flex: 0 0 25%;">
+                        <div class="card clean-card text-center">
+                            <div style="height: 340px;"><img src="assets/img/JP.png" style="opacity: 1;display: block;height: 100%;width: 100%;/*transition: .5s ease;*/object-fit: cover;backface-visibility: hidden;/*border-radius: 20px;*/"></div>
+                            <div class="card-body info">
+                                <h4 class="card-title">João Paulo</h4>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">número</p>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">email</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" style="-ms-flex: 0 0 25%;flex: 0 0 25%;">
+                        <div class="card clean-card text-center">
+                            <div style="height: 340px;"><img src="assets/img/NS.png" style="opacity: 1;display: block;height: 100%;width: 100%;/*transition: .5s ease;*/object-fit: cover;backface-visibility: hidden;/*border-radius: 20px;*/"></div>
+                            <div class="card-body info">
+                                <h4 class="card-title">Nuno Santos</h4>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">52690</p>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">h.assuncao@campus.fct.unl.pt</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" style="-ms-flex: 0 0 25%;flex: 0 0 25%;">
+                        <div class="card clean-card text-center">
+                            <div style="height: 340px;"><img src="assets/img/PB.png" style="opacity: 1;display: block;height: 100%;width: 100%;/*transition: .5s ease;*/object-fit: cover;backface-visibility: hidden;/*border-radius: 20px;*/"></div>
+                            <div class="card-body info">
+                                <h4 class="card-title">Pedro Belinha</h4>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">número</p>
+                                <p class="card-text" style="width: 100%;font-size: 12px;">email</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="project">
-          <h3 class="minor-title">Tema do Projeto : EcoBook (WIP)</h3>
-          <p>O EcoBook é uma Aplicação Web desenhada para a partilha de livros. Um utilizador pode disponibilizar os
-            seus
-            livros para troca, indicando também uma lista com aqueles que gostaria de receber.</p>
-          <p>É também possível serem feitas doações de livros para o banco de livros EcoBook assim como requisições do
-            mesmo.</p>
-          <p>Na altura de enviar os livros a EcoBook age como intermediário, recebendo os livros de ambos os clientes e
-            reenviando à outra pessoa.</p>
-          <p>Para além disso, a EcoBook disponibiliza também um fórum para a troca de ideias sobre os livros, por parte
-            de
-            quem já leu ou de quem estaria interessado em ler.</p>
+        <div class="footer-copyright">
+            <p>© 2020 EcoBook</p>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <script type="text/javascript" src="content/code.js"></script>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/agency.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

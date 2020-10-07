@@ -3,6 +3,14 @@ html, body {
   width: 100%;
 }
 
+.image{
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  backface-visibility: hidden;
+}
+
 .sp-loading {
   text-align: center;
   max-width: 270px;
